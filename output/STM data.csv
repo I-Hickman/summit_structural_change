@@ -1,0 +1,78 @@
+B/UB,transition,X2004,X2022,n,lftotal,pct
+Burnt,bare ground_bare ground,bare ground,bare ground,19,171,11.11111111
+Burnt,bare ground_grass,bare ground,grass,65,171,38.01169591
+Burnt,bare ground_herb,bare ground,herb,16,171,9.356725146
+Burnt,bare ground_litter,bare ground,litter,22,171,12.86549708
+Burnt,bare ground_road,bare ground,road,3,171,1.754385965
+Burnt,bare ground_rock,bare ground,rock,15,171,8.771929825
+Burnt,bare ground_shrub,bare ground,shrub,31,171,18.12865497
+Burnt,grass_bare ground,grass,bare ground,36,1367,2.633504023
+Burnt,grass_grass,grass,grass,589,1367,43.08705194
+Burnt,grass_herb,grass,herb,171,1367,12.50914411
+Burnt,grass_litter,grass,litter,85,1367,6.217995611
+Burnt,grass_road,grass,road,16,1367,1.170446233
+Burnt,grass_rock,grass,rock,75,1367,5.486466715
+Burnt,grass_shrub,grass,shrub,395,1367,28.89539137
+Burnt,herb_bare ground,herb,bare ground,5,224,2.232142857
+Burnt,herb_grass,herb,grass,94,224,41.96428571
+Burnt,herb_herb,herb,herb,53,224,23.66071429
+Burnt,herb_litter,herb,litter,14,224,6.25
+Burnt,herb_rock,herb,rock,6,224,2.678571429
+Burnt,herb_shrub,herb,shrub,52,224,23.21428571
+Burnt,litter_bare ground,litter,bare ground,1,117,0.854700855
+Burnt,litter_grass,litter,grass,58,117,49.57264957
+Burnt,litter_herb,litter,herb,16,117,13.67521368
+Burnt,litter_litter,litter,litter,10,117,8.547008547
+Burnt,litter_rock,litter,rock,7,117,5.982905983
+Burnt,litter_shrub,litter,shrub,25,117,21.36752137
+Burnt,rock_bare ground,rock,bare ground,17,376,4.521276596
+Burnt,rock_grass,rock,grass,96,376,25.53191489
+Burnt,rock_herb,rock,herb,23,376,6.117021277
+Burnt,rock_litter,rock,litter,12,376,3.191489362
+Burnt,rock_road,rock,road,4,376,1.063829787
+Burnt,rock_rock,rock,rock,125,376,33.24468085
+Burnt,rock_shrub,rock,shrub,99,376,26.32978723
+Burnt,shrub_bare ground,shrub,bare ground,62,3447,1.798665506
+Burnt,shrub_grass,shrub,grass,781,3447,22.65738323
+Burnt,shrub_herb,shrub,herb,185,3447,5.366985785
+Burnt,shrub_litter,shrub,litter,98,3447,2.843051929
+Burnt,shrub_road,shrub,road,14,3447,0.406150276
+Burnt,shrub_rock,shrub,rock,155,3447,4.496663766
+Burnt,shrub_shrub,shrub,shrub,2152,3447,62.43109951
+Unburnt,bare ground_bare ground,bare ground,bare ground,12,174,6.896551724
+Unburnt,bare ground_grass,bare ground,grass,30,174,17.24137931
+Unburnt,bare ground_herb,bare ground,herb,40,174,22.98850575
+Unburnt,bare ground_litter,bare ground,litter,5,174,2.873563218
+Unburnt,bare ground_rock,bare ground,rock,5,174,2.873563218
+Unburnt,bare ground_shrub,bare ground,shrub,48,174,27.5862069
+Unburnt,bare ground_track,bare ground,track,34,174,19.54022989
+Unburnt,grass_bare ground,grass,bare ground,60,1369,4.38276114
+Unburnt,grass_grass,grass,grass,684,1369,49.96347699
+Unburnt,grass_herb,grass,herb,250,1369,18.26150475
+Unburnt,grass_litter,grass,litter,16,1369,1.168736304
+Unburnt,grass_rock,grass,rock,51,1369,3.725346969
+Unburnt,grass_shrub,grass,shrub,307,1369,22.42512783
+Unburnt,grass_track,grass,track,1,1369,0.073046019
+Unburnt,herb_bare ground,herb,bare ground,34,1251,2.717825739
+Unburnt,herb_grass,herb,grass,279,1251,22.30215827
+Unburnt,herb_herb,herb,herb,623,1251,49.80015987
+Unburnt,herb_litter,herb,litter,9,1251,0.71942446
+Unburnt,herb_rock,herb,rock,32,1251,2.557953637
+Unburnt,herb_shrub,herb,shrub,274,1251,21.90247802
+Unburnt,litter_bare ground,litter,bare ground,8,58,13.79310345
+Unburnt,litter_grass,litter,grass,9,58,15.51724138
+Unburnt,litter_herb,litter,herb,22,58,37.93103448
+Unburnt,litter_rock,litter,rock,3,58,5.172413793
+Unburnt,litter_shrub,litter,shrub,16,58,27.5862069
+Unburnt,rock_bare ground,rock,bare ground,21,416,5.048076923
+Unburnt,rock_grass,rock,grass,55,416,13.22115385
+Unburnt,rock_herb,rock,herb,48,416,11.53846154
+Unburnt,rock_litter,rock,litter,6,416,1.442307692
+Unburnt,rock_rock,rock,rock,122,416,29.32692308
+Unburnt,rock_shrub,rock,shrub,164,416,39.42307692
+Unburnt,shrub_bare ground,shrub,bare ground,26,1618,1.606922126
+Unburnt,shrub_grass,shrub,grass,168,1618,10.38318912
+Unburnt,shrub_herb,shrub,herb,203,1618,12.54635352
+Unburnt,shrub_litter,shrub,litter,11,1618,0.679851669
+Unburnt,shrub_rock,shrub,rock,69,1618,4.264524104
+Unburnt,shrub_shrub,shrub,shrub,1141,1618,70.51915946
