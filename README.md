@@ -1,5 +1,5 @@
 ## Alpine summit vegetation cover change over 18 years: divergent trajectories driven by climate warming and fire
-By *Iris T. Hickman, Susanna E. Venn, James S. Camac, Richard J. Williams, John W. Morgan*
+By *Iris T. Hickman, Susanna E. Venn, James S. Camac, John W. Morgan*
 
 ### Summary
 
