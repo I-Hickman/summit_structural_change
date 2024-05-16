@@ -74,22 +74,6 @@ mForbGLM <- brms::brm(count | trials(total) ~
                        control = list(adapt_delta = 0.999, max_treedepth=15), 
                        data = Forbs2)
 
-mForbGAM <- brms::brm(bf(count | trials(total) ~ 
-                       t2(TSF.std, gdd.std) + s(ele.std) + 
-                       ( 1 | Site) + (1|Year.F)),
-                       family = binomial("logit"),
-                       future = TRUE,
-                       iter = 2000,
-                       cores = 4,
-                       chains = 4,
-                       control = list(adapt_delta = 0.999, max_treedepth=15), 
-                       data = Forbs2)
-
-### Step 4: Compare between models #####
-xx1 <-brms::kfold(mForbGLM, K=5)#Use kfold to compare between 2 different model (GAM & GLM)
-xx <-brms::kfold(mForbGAM, K=5) 
-loo_compare(xx, xx1)
-
 ### Step 5: Validate model ####
 #Check model
 summary(mForbGLM) #summary stats - look at Rhat and make sure <1.05
@@ -396,27 +380,6 @@ mShrubGLM <- brms::brm(count | trials(total) ~
                       control = list(adapt_delta = 0.99, max_treedepth=15), 
                       data = Shrubs2)
 
-options(mc.cores = parallel::detectCores())
-rstan_options(auto_write = TRUE, threads_per_chain = 1)
-
-mShrubGAM <- brms::brm(bf(count | trials(total) ~ 
-                      t2(TSF.std, gdd.std) + s(ele.std) + 
-                      ( 1 | Site) + (1|Year.F)),
-                      family = binomial("logit"),
-                      future = TRUE,
-                      iter = 4000,
-                      cores = 4,
-                      chains = 4,
-                      control = list(adapt_delta = 0.99, max_treedepth=15),
-                      data = Shrubs2)
-
-
-### Step 4: Compare between models #####
-xx1 <-brms::kfold(mShrubGLM, K=5) 
-xx <-brms::kfold(mShrubGAM, K=5) 
-loo_compare(xx, xx1)
-
-
 ### Step 5: Validate model ####
 #Check model
 summary(mShrubGLM) 
@@ -708,23 +671,6 @@ mGramGLM <- brms::brm(count | trials(total) ~
                        future = TRUE,
                        control = list(adapt_delta = 0.99, max_treedepth=15), 
                        data = Graminoid2)
-
-mGramGAM <- brms::brm(bf(count | trials(total) ~ 
-                       t2(TSF.std, gdd.std) + s(ele.std) + 
-                       ( 1 | Site) + (1|Year.F)),
-                       family = binomial("logit"),
-                       iter = 2000,
-                       cores = 4,
-                       chains = 4,
-                       future = TRUE,
-                       control = list(adapt_delta = 0.99, max_treedepth=15), 
-                       data = Graminoid2)
-
-### Step 4: Compare between models #####
-xx1 <-brms::kfold(mGramGLM, K=5) 
-xx <-brms::kfold(mGramGAM, K=5) 
-loo_compare(xx, xx1)
-
 
 ### Step 5: Validate model ####
 #Check model
